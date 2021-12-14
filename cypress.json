@@ -1,0 +1,9 @@
+{
+  "testFiles": "**/*.feature",
+  "baseUrl": "http://rightnow-hlg.novapontocom.com.br:85/integrador-tst3/api/v1.0/",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "projectId": "9s3ig2"
+}
