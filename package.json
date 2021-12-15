@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cypress run",
     "deploy": "npm run build&&gh-pages -d build",
-    "build": "npm start"
+    "build": "npm start",
+    "test:ci:record": "start-test 8888 cy:record"
   },
   "keywords": [],
   "author": "",
