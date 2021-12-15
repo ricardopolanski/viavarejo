@@ -7,7 +7,7 @@
     "test": "cypress run",
     "deploy": "npm run build&&gh-pages -d build",
     "build": "npm start",
-    "test:ci:record": "start-test 8888 cy:record"
+    "test:ci:record": "RNCR-1783 Analises de aplicabilidade do fluxo financeiro.feature"
   },
   "keywords": [],
   "author": "",
