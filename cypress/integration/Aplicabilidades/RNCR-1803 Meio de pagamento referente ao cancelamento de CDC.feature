@@ -1,4 +1,4 @@
-Feature: Analises de aplicabilidade do fluxo financeiro - RNCR-1783
+Feature: Meio de pagamento referente ao cancelamento de CDC - RNCR-1803
     
     @TestCaseKey= 
     Scenario Outline: Teste de Aplicabilidade - <NOMECATEGORIA>
