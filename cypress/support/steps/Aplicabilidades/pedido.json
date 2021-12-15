@@ -1,0 +1,681 @@
+{
+    "pedido": {
+      "idPedido": 304258681,
+      "idPedidoOrigem": "",
+      "pedidoPlus": 0,
+      "idListaCompra": null,
+      "ipCliente": "2804:389:803c:3a66:0:52:e021:3401",
+      "tipoPedido": "Normal",
+      "dataPedido": "10/12/2021 17:02:00",
+      "valorJuros": 0,
+      "valorEmbalagem": 0,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorTotal": 0,
+      "flagCompraSige": false,
+      "canalVenda": {
+        "idCanalVenda": "APP",
+        "descricao": "Aplicativo Mobile"
+      },
+      "destinatario": {
+        "cpfCnpj": "004.138.895-05",
+        "dataNascimento": "09/11/1974 00:00:00",
+        "email": "graciene8833@gmail.com",
+        "nome": "Maria Graciene Barreto Santos",
+        "genero": "",
+        "endereco": {
+          "bairro": "Jap ozinho",
+          "cep": "49063-130",
+          "complemento": "casa",
+          "numero": 99,
+          "pontoReferencia": "no fundo dos condomínios alto da bela vista ",
+          "rua": " Rua C",
+          "municipio": "Aracaju",
+          "pais": "BRA",
+          "uf": "SE"
+        },
+        "telefones": [
+          {
+            "tipo": "",
+            "numero": "79988332268"
+          },
+          {
+            "tipo": "",
+            "numero": "79988332268"
+          }
+        ]
+      },
+      "clienteFaturamento": {
+        "cpfCnpj": "004.138.895-05",
+        "dataNascimento": "09/11/1974 00:00:00",
+        "email": "graciene8833@gmail.com",
+        "nome": "Maria Graciene Barreto Santos",
+        "genero": "",
+        "endereco": {
+          "bairro": "Jap ozinho",
+          "cep": "49063-130",
+          "complemento": "casa",
+          "numero": 99,
+          "pontoReferencia": "no fundo dos condomínios alto da bela vista ",
+          "rua": " Rua C",
+          "municipio": "Aracaju",
+          "pais": "BRA",
+          "uf": "SE"
+        },
+        "telefones": [
+          {
+            "tipo": "",
+            "numero": "79988332268"
+          },
+          {
+            "tipo": "",
+            "numero": "79988332268"
+          }
+        ]
+      },
+      "vendedor": {
+        "idVendedor": null,
+        "nome": null,
+        "login": null,
+        "Matricula": 2104785320,
+        "IdFilial": 2268
+      },
+      "utm": {
+        "midia": "lojahome",
+        "campanha": null,
+        "parceiro": "lojahome",
+        "statusPagamento": 0
+      },
+      "entregas": [
+        {
+          "idEntrega": 30425868101,
+          "idCompraEntrega": 138310514,
+          "idEntregaErp": 0,
+          "dataPrometida": "14/12/2021 00:00:00",
+          "dataAjustada": null,
+          "dataCorrigida": null,
+          "dataLimite": "14/12/2021 00:00:00",
+          "dataStatus": "11/12/2021 05:10:07",
+          "idEntregaOrigem": null,
+          "idTipoEntrega": 1,
+          "idPedidoMarketplace": null,
+          "idSolicitacaoOrigem": null,
+          "nomeTipoEntrega": "Normal",
+          "ordemDevolucao": null,
+          "sroEntrega": null,
+          "permiteLiberarEntrega": false,
+          "valorEntrega": 2802.9,
+          "tipoRestricao": "WN",
+          "PrazoTransportadora": 0,
+          "PrazoEntregaCliente": 2,
+          "classificacao": null,
+          "UrlRastreio": null,
+          "envias": false,
+          "sequencialCompra": null,
+          "integracao": {
+            "data": "11/12/2021 05:08:42",
+            "status": "1 - Enviado",
+            "sat": null,
+            "std": null
+          },
+          "cargaTransportador": [
+            {
+              "data": "20/12/2021 00:00:00",
+              "tipo": ""
+            },
+            {
+              "data": "14/12/2021 00:00:00",
+              "tipo": ""
+            }
+          ],
+          "folhaTrabalho": {
+            "numero": 0,
+            "empresaEmissao": null,
+            "filialEmissao": null,
+            "empresaCupom": null,
+            "filialCupom": null,
+            "dataCupom": null,
+            "maquinaCupom": null,
+            "numeroCupom": null,
+            "chaveCupom": null
+          },
+          "coleta": {
+            "dataPrevisao": null,
+            "dataPrevisaoRetornoCd": null,
+            "dataRetornoCd": null,
+            "dataRetornoCDCorrigida": null,
+            "dataRetornoCDAjustada": null,
+            "DataCorrigidaPrevisaoColeta": null,
+            "DataAjustadaPrevisaoColeta": null,
+            "idPedidoEntrega": 0,
+            "idPedidoEntregaStatusColeta": 0,
+            "sroPostagem": null,
+            "dataPrevistaCliente": null,
+            "loja": {
+              "nome": null,
+              "cnpj": null
+            }
+          },
+          "agendada": {
+            "data": null,
+            "periodo": null
+          },
+          "estornos": [],
+          "filial": {
+            "centroDistribuicao": "Aracaju - SE",
+            "nome": "CD_1673",
+            "idFilial": 1673,
+            "cnpj": "33041260113368",
+            "uf": "SE"
+          },
+          "lojista": {
+            "idLojista": 10037,
+            "nome": "Casas Bahia"
+          },
+          "notaFiscal": {
+            "idNotaFiscal": 0,
+            "serie": null,
+            "chaveNfe": null
+          },
+          "transportadora": {
+            "idTransportadora": 20352049000897,
+            "nome": "TMA NORDESTE TRANSPORTE LOTACA"
+          },
+          "motivo": {
+            "assunto": null,
+            "categoria": null,
+            "data": null,
+            "motivo": null,
+            "idAssunto": 0,
+            "idCategoria": 0,
+            "idMotivo": 0,
+            "observacao": null,
+            "operador": null,
+            "justificativa": null,
+            "canalTrocaCancelamento": null
+          },
+          "redespacho": {
+            "cnpj": null,
+            "observacaoTransportadora": "",
+            "enderecoLoja": null,
+            "horarioFuncionamento": null
+          },
+          "loja": {
+            "nome": "Casas Bahia",
+            "cnpj": null
+          },
+          "skus": [
+            {
+              "dataPreVenda": null,
+              "idSkuMarketplace": 12731692,
+              "idSkuExterno": null,
+              "marca": "Brastemp",
+              "nome": "Geladeira Brastemp Frost Free Duplex BRM44HB com Compartimento Extrafrio Fresh Zone Branca - 375L",
+              "peso": 75000,
+              "pesoCubado": 269.33,
+              "preco": 2748,
+              "status": 1,
+              "tipoEstoque": "N",
+              "tipoSku": "Produto Físico",
+              "valorDescontoUnitario": 0,
+              "valorFreteUnitario": 54.9,
+              "valorJurosUnitario": 1095.4,
+              "valorStUnitario": 0,
+              "valorTotal": 3898.3,
+              "idSku": 12731692,
+              "quantidade": 1,
+              "valorUnitario": 0,
+              "SkuKitFilhos": null,
+              "servicos": [],
+              "garantiaAvulsa": {
+                "idPedido": 0,
+                "idEntrega": 0,
+                "idSku": 0
+              },
+              "sequencial": 1
+            }
+          ],
+          "trackings": [
+            {
+              "dataHora": "11/12/2021 05:10:07",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "data-pipeline-integration",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "CAN",
+                "descricao": "Cancelado"
+              }
+            },
+            {
+              "dataHora": "11/12/2021 05:08:59",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "data-pipeline-integration",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "AES",
+                "descricao": "Aguardando Estoque"
+              }
+            },
+            {
+              "dataHora": "11/12/2021 05:08:58",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "data-pipeline-integration",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "PAP",
+                "descricao": "Pedido Aprovado"
+              }
+            },
+            {
+              "dataHora": "11/12/2021 05:07:59",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "PROXY",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "_PAP",
+                "descricao": "Pedido Aprovado (PROXY)"
+              }
+            },
+            {
+              "dataHora": "10/12/2021 17:09:00",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "PROXY",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "AAP",
+                "descricao": "Enviado Pagamento"
+              }
+            },
+            {
+              "dataHora": "10/12/2021 17:09:00",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "PROXY",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "CAP",
+                "descricao": "Crédito Aprovado"
+              }
+            },
+            {
+              "dataHora": "10/12/2021 17:06:26",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "ERP",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "AMC",
+                "descricao": "Analise Manual de Fraude"
+              }
+            },
+            {
+              "dataHora": "10/12/2021 17:02:57",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "SITE",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "ACR",
+                "descricao": "Aguardando Análise de Fraude"
+              }
+            },
+            {
+              "dataHora": "10/12/2021 17:02:57",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "SITE",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "PEI",
+                "descricao": "Pedido Incluido"
+              }
+            }
+          ],
+          "liberacaoEntrega": {
+            "forcada": false,
+            "dataSoliticacao": null,
+            "operador": null,
+            "idStatus": null,
+            "descricaoStatus": null,
+            "mensagemErroERP": null,
+            "dataUltimoErroERP": null
+          },
+          "postagem": {
+            "codigo": null
+          }
+        },
+        {
+          "idEntrega": 30425868102,
+          "idCompraEntrega": 138317067,
+          "idEntregaErp": 1,
+          "dataPrometida": "14/12/2021 00:00:00",
+          "dataAjustada": null,
+          "dataCorrigida": null,
+          "dataLimite": "14/12/2021 00:00:00",
+          "dataStatus": "11/12/2021 05:10:07",
+          "idEntregaOrigem": 30425868101,
+          "idTipoEntrega": 17,
+          "idPedidoMarketplace": null,
+          "idSolicitacaoOrigem": "211210-040669",
+          "nomeTipoEntrega": "Insucesso de entrega",
+          "ordemDevolucao": 3,
+          "sroEntrega": null,
+          "permiteLiberarEntrega": false,
+          "valorEntrega": -2802.9,
+          "tipoRestricao": "WN",
+          "PrazoTransportadora": 0,
+          "PrazoEntregaCliente": 1,
+          "classificacao": null,
+          "UrlRastreio": null,
+          "envias": false,
+          "sequencialCompra": null,
+          "integracao": {
+            "data": "11/12/2021 05:10:08",
+            "status": "1 - Enviado",
+            "sat": "0",
+            "std": "2249218320000"
+          },
+          "cargaTransportador": [
+            {
+              "data": "20/12/2021 00:00:00",
+              "tipo": ""
+            }
+          ],
+          "folhaTrabalho": {
+            "numero": 0,
+            "empresaEmissao": null,
+            "filialEmissao": null,
+            "empresaCupom": null,
+            "filialCupom": null,
+            "dataCupom": null,
+            "maquinaCupom": null,
+            "numeroCupom": null,
+            "chaveCupom": null
+          },
+          "coleta": {
+            "dataPrevisao": null,
+            "dataPrevisaoRetornoCd": null,
+            "dataRetornoCd": null,
+            "dataRetornoCDCorrigida": null,
+            "dataRetornoCDAjustada": null,
+            "DataCorrigidaPrevisaoColeta": null,
+            "DataAjustadaPrevisaoColeta": null,
+            "idPedidoEntrega": 0,
+            "idPedidoEntregaStatusColeta": 0,
+            "sroPostagem": null,
+            "dataPrevistaCliente": null,
+            "loja": {
+              "nome": null,
+              "cnpj": null
+            }
+          },
+          "agendada": {
+            "data": null,
+            "periodo": null
+          },
+          "estornos": [],
+          "filial": {
+            "centroDistribuicao": "Aracaju - SE",
+            "nome": "CD_1673",
+            "idFilial": 1673,
+            "cnpj": "33041260113368",
+            "uf": "SE"
+          },
+          "lojista": {
+            "idLojista": 10037,
+            "nome": "Casas Bahia"
+          },
+          "notaFiscal": {
+            "idNotaFiscal": 0,
+            "serie": null,
+            "chaveNfe": null
+          },
+          "transportadora": {
+            "idTransportadora": 20352049000897,
+            "nome": "TMA NORDESTE TRANSPORTE LOTACA"
+          },
+          "motivo": {
+            "assunto": "Troca ou Cancelamento*",
+            "categoria": "Solicitação",
+            "data": "10/12/2021 18:34:38",
+            "motivo": "Arrependimento*",
+            "idAssunto": 3629,
+            "idCategoria": 1051,
+            "idMotivo": 3632,
+            "observacao": "ARREPENDIMENTO DE COMPRA",
+            "operador": "api-atendimento",
+            "justificativa": "Desistiu de pagar no boleto, vão utilizar boleto",
+            "canalTrocaCancelamento": null
+          },
+          "redespacho": {
+            "cnpj": null,
+            "observacaoTransportadora": null,
+            "enderecoLoja": null,
+            "horarioFuncionamento": null
+          },
+          "loja": {
+            "nome": "Casas Bahia",
+            "cnpj": null
+          },
+          "skus": [
+            {
+              "dataPreVenda": null,
+              "idSkuMarketplace": 12731692,
+              "idSkuExterno": null,
+              "marca": "Brastemp",
+              "nome": "Geladeira Brastemp Frost Free Duplex BRM44HB com Compartimento Extrafrio Fresh Zone Branca - 375L",
+              "peso": 75000,
+              "pesoCubado": 269.33,
+              "preco": -2748,
+              "status": 1,
+              "tipoEstoque": "N",
+              "tipoSku": "Produto Físico",
+              "valorDescontoUnitario": 0,
+              "valorFreteUnitario": -54.9,
+              "valorJurosUnitario": -1095.4,
+              "valorStUnitario": 0,
+              "valorTotal": -3898.3,
+              "idSku": 12731692,
+              "quantidade": 1,
+              "valorUnitario": 0,
+              "SkuKitFilhos": null,
+              "servicos": [],
+              "garantiaAvulsa": {
+                "idPedido": 0,
+                "idEntrega": 0,
+                "idSku": 0
+              },
+              "sequencial": 1
+            }
+          ],
+          "trackings": [
+            {
+              "dataHora": "11/12/2021 05:10:07",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "data-pipeline-integration",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "DVC",
+                "descricao": "Devolução Via Varejo Confirmada"
+              }
+            },
+            {
+              "dataHora": "11/12/2021 05:07:59",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "PROXY",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "_PAP",
+                "descricao": "Pedido Aprovado (PROXY)"
+              }
+            },
+            {
+              "dataHora": "10/12/2021 18:34:38",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "SITE",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "_PAP",
+                "descricao": "Pedido Aprovado (PROXY)"
+              }
+            },
+            {
+              "dataHora": "10/12/2021 18:34:38",
+              "descricaoSac": null,
+              "idEnvioEmail": null,
+              "operador": "SITE",
+              "statusEmailEnviado": null,
+              "pontoControle": {
+                "idPontoControle": "TDS",
+                "descricao": "Troca/Devolução solicitada"
+              }
+            }
+          ],
+          "liberacaoEntrega": {
+            "forcada": false,
+            "dataSoliticacao": null,
+            "operador": null,
+            "idStatus": null,
+            "descricaoStatus": null,
+            "mensagemErroERP": null,
+            "dataUltimoErroERP": null
+          },
+          "postagem": {
+            "codigo": ""
+          }
+        }
+      ],
+      "pedidoParceiro": {
+        "idCampanha": "",
+        "idContrato": null,
+        "nomeParceiro": null,
+        "idPedido": 304258681,
+        "idParceiro": null
+      },
+      "formasPagamento": [
+        {
+          "idPedidoFormaPagamento": 128444769,
+          "idFormaPagamento": 12,
+          "nomeFormaPagamento": "Boleto Bradesco",
+          "numeroContrato": null,
+          "quantidadeParcelas": 1,
+          "valor": 137.4,
+          "valorJuros": 0,
+          "valorReembolso": 0,
+          "statusAnalisePagamento": {
+            "codigoMaquineta": null,
+            "dataPrevisaoCredito": "01/01/0001 00:00:00",
+            "dataPrimeiroVencimento": "01/01/0001 00:00:00",
+            "descricaoMotivoReprovacao": null,
+            "gerarToken": false,
+            "idAdquirente": 0,
+            "idCartaoExpresso": 0,
+            "idClienteTE13": null,
+            "idClienteTokenizacao": 0,
+            "idGwPagto": null,
+            "meioPagamento": null,
+            "nossoNumero": "812924495",
+            "nsuAutorizadora": 0,
+            "nsuCtf": 0,
+            "numeroCartao6Digitos": null,
+            "numeroContrato": 0,
+            "numeroTerminal": "0",
+            "resultReq": 0,
+            "titularCartao": "",
+            "token": null,
+            "validadeCartao": null,
+            "valorJuros": 0,
+            "valorPrestacao": 0,
+            "valorTributos": 0,
+            "bandeiraCartao": null,
+            "codigoAutorizacao": null,
+            "codigoRetorno": 0,
+            "dataTransacao": "13/12/2021 00:00:00",
+            "idMotivoReprovacao": "0",
+            "idPedido": 304258681,
+            "idUnidadeNegocio": 8,
+            "itens": null,
+            "sequencial": 1,
+            "status": "AP",
+            "valorMeioPagamento": 13740,
+            "valorPago": 13740
+          },
+          "url": "https://meiosdepagamentobradesco.com.br/apiboleto/Bradesco?token=dEtxcmxFNHArdmZEcW50L213RENtMm51OTZaNFBPRmYrc0hrTndKWnFSdlNOU09wUXlleUlMZEVMek5Dd2xFYg..",
+          "pathImg": "/App_Themes/Loja/Images/FormaPagamento/46865.jpg",
+          "taxaJuros": 0,
+          "formaPagamentoCarneOnline": null,
+          "linhaDigitavel": "23792372216008129244795531853109188330000013740"
+        },
+        {
+          "idPedidoFormaPagamento": 128444770,
+          "idFormaPagamento": 94,
+          "nomeFormaPagamento": "Carnê Digital",
+          "numeroContrato": null,
+          "quantidadeParcelas": 13,
+          "valor": 3760.9,
+          "valorJuros": 1095.4,
+          "valorReembolso": 0,
+          "statusAnalisePagamento": {
+            "codigoMaquineta": null,
+            "dataPrevisaoCredito": "01/01/0001 00:00:00",
+            "dataPrimeiroVencimento": "01/01/0001 00:00:00",
+            "descricaoMotivoReprovacao": null,
+            "gerarToken": false,
+            "idAdquirente": 0,
+            "idCartaoExpresso": 0,
+            "idClienteTE13": null,
+            "idClienteTokenizacao": 0,
+            "idGwPagto": null,
+            "meioPagamento": null,
+            "nossoNumero": null,
+            "nsuAutorizadora": 0,
+            "nsuCtf": 0,
+            "numeroCartao6Digitos": null,
+            "numeroContrato": 0,
+            "numeroTerminal": "0",
+            "resultReq": 0,
+            "titularCartao": "",
+            "token": null,
+            "validadeCartao": null,
+            "valorJuros": 109540,
+            "valorPrestacao": 0,
+            "valorTributos": 0,
+            "bandeiraCartao": null,
+            "codigoAutorizacao": null,
+            "codigoRetorno": 0,
+            "dataTransacao": "10/12/2021 17:08:21",
+            "idMotivoReprovacao": "0",
+            "idPedido": 304258681,
+            "idUnidadeNegocio": 8,
+            "itens": null,
+            "sequencial": 2,
+            "status": "AP",
+            "valorMeioPagamento": 376090,
+            "valorPago": 376090
+          },
+          "url": "",
+          "pathImg": "",
+          "taxaJuros": 3.16,
+          "formaPagamentoCarneOnline": {
+            "idClienteLegado": 854108858,
+            "valorJuros": 84.27,
+            "valorParcela": 289.3,
+            "numeroContrato": null,
+            "funcionario": false
+          },
+          "linhaDigitavel": null
+        }
+      ]
+    },
+    "Valido": true,
+    "Mensagens": [],
+    "Protocolo": "8a443aad-0f08-41dd-99a1-d0588efa6f77"
+  }

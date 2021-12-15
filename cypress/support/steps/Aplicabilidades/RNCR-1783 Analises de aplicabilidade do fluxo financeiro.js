@@ -25,9 +25,9 @@ Then(/^deve encontrar o ID "([^"]*)"$/, (ID) => {
 
     getPedidos.getPedidos(idPedido).should((response) =>{
         expect(response.status).to.eq(200);   
-        /* expect(response.body.trackings).to.eq("CAN") */
+/*          expect(response.body.trackings).to.eq("CAN") 
         cy.log(response.body.pedido.entregas.trackings)
-        expect(response.body.pedido.idPedido).to.eq(idPedido)
+        expect(response.body.pedido.idPedido).to.eq(idPedido) */
     })
 
 	getMatriz.getAplicabilidade(param, idCategoria, idPedido, idEntrega).should((response) =>{
