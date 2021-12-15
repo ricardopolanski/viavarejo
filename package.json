@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "deploy": "npm run build&&gh-pages -d build",
+  "build": "whatever-command-you-want-npm-to-run"
   },
   "keywords": [],
   "author": "",
