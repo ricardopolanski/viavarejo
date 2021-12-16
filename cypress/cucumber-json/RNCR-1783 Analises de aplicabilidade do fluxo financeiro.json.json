@@ -1,0 +1,287 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Analises de aplicabilidade do fluxo financeiro - RNCR-1783",
+    "line": 1,
+    "id": "analises-de-aplicabilidade-do-fluxo-financeiro---rncr-1783",
+    "tags": [],
+    "uri": "RNCR-1783 Analises de aplicabilidade do fluxo financeiro.feature",
+    "elements": [
+      {
+        "id": "analises-de-aplicabilidade-do-fluxo-financeiro---rncr-1783;teste-de-aplicabilidade---preventivo->-retira",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Teste de Aplicabilidade - Preventivo > Retira",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador abra um incidente novo com a categoria \"2851\"",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "a forma de restituição é Ordem de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "deve encontrar o ID \"Atraso no reembolso\"",
+            "result": {
+              "status": "passed",
+              "duration": 5494000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "analises-de-aplicabilidade-do-fluxo-financeiro---rncr-1783;teste-de-aplicabilidade---preventivo->-entrega",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Teste de Aplicabilidade - Preventivo > Entrega",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador abra um incidente novo com a categoria \"1087\"",
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "a forma de restituição é Ordem de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "deve encontrar o ID \"Atraso no reembolso\"",
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "analises-de-aplicabilidade-do-fluxo-financeiro---rncr-1783;teste-de-aplicabilidade---preventivo->-reversa-(coleta)",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Teste de Aplicabilidade - Preventivo > Reversa (Coleta)",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador abra um incidente novo com a categoria \"1091\"",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "a forma de restituição é Ordem de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "deve encontrar o ID \"Atraso no reembolso\"",
+            "result": {
+              "status": "passed",
+              "duration": 426000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "analises-de-aplicabilidade-do-fluxo-financeiro---rncr-1783;teste-de-aplicabilidade---preventivo->-separação-de-pedidos",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Teste de Aplicabilidade - Preventivo > Separação de Pedidos",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador abra um incidente novo com a categoria \"1092\"",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "a forma de restituição é Ordem de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "deve encontrar o ID \"Atraso no reembolso\"",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "analises-de-aplicabilidade-do-fluxo-financeiro---rncr-1783;teste-de-aplicabilidade---preventivo->-crédito",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Teste de Aplicabilidade - Preventivo > Crédito",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador abra um incidente novo com a categoria \"1086\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "a forma de restituição é Ordem de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "deve encontrar o ID \"Atraso no reembolso\"",
+            "result": {
+              "status": "passed",
+              "duration": 395000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

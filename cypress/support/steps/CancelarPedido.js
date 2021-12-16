@@ -58,9 +58,7 @@ Then(/^selecione Restituição Simpes$/, () => {
     }).contains('Restituição Simples').should('be.visible'))
 
     /* Verifica se existe botão Restituição Mista */
-    expect(cy.get('button[onclick="restituicaoMistaMaisOpcoes()"]', {
-        timeout: 30000
-    }).contains('Restituição Mista').should('be.visible'))
+    //expect(cy.get('button[onclick="restituicaoMistaMaisOpcoes()"]').contains('Restituição Mista').should('not.exist'))
 
     /* Verifica se existe botão ??? */
     expect(cy.get('button[class="bgwhite border radius flag-color margin pad flex frow fcenter grow"]', {

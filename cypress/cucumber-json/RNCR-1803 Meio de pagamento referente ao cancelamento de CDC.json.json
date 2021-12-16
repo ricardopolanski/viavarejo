@@ -1,0 +1,1328 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Meio de pagamento referente ao cancelamento de CDC - RNCR-1803",
+    "line": 1,
+    "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803",
+    "tags": [],
+    "uri": "RNCR-1803 Meio de pagamento referente ao cancelamento de CDC.feature",
+    "elements": [
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-financeiro->-reclamação-sobre-atraso-na-devolução-de-valores*",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Teste de Aplicabilidade - Reclamação > Financeiro > Reclamação sobre atraso na devolução de valores*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"1417\"",
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"1417\"",
+            "result": {
+              "status": "passed",
+              "duration": 5528000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-reversa-(coleta)->-transportador-recusou-coletar",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Teste de Aplicabilidade - Reclamação > Reversa (Coleta) > Transportador recusou coletar",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"1456\"",
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"1456\"",
+            "result": {
+              "status": "passed",
+              "duration": 2209000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-financeiro->-cliente-desconhece-restituição",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Teste de Aplicabilidade - Reclamação > Financeiro > Cliente desconhece restituição",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"1874\"",
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"1874\"",
+            "result": {
+              "status": "passed",
+              "duration": 1349000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-entrega->-desconhece-entrega",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega > Desconhece entrega",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"2280\"",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"2280\"",
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-entrega->-divergência-peça-ou-acessório",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega > Divergência peça ou acessório",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"2305\"",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"2305\"",
+            "result": {
+              "status": "passed",
+              "duration": 555000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-entrega->-embalagem-vazia",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega > Embalagem vazia",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"2306\"",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"2306\"",
+            "result": {
+              "status": "passed",
+              "duration": 510000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-entrega->-volume-duplicado",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega > Volume duplicado",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"2307\"",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"2307\"",
+            "result": {
+              "status": "passed",
+              "duration": 612000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-entrega->-volume-trocado",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega > Volume trocado",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"2308\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"2308\"",
+            "result": {
+              "status": "passed",
+              "duration": 695000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-entrega->-divergente-vs-recebido",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega > Divergente vs Recebido",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"2744\"",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"2744\"",
+            "result": {
+              "status": "passed",
+              "duration": 958000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-entrega->-volume-incompleto",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega > Volume incompleto",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"2752\"",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"2752\"",
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---solicitação->-financeiro->-comprovante-de-cancelamento",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Teste de Aplicabilidade - Solicitação > Financeiro > Comprovante de cancelamento",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3485\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3485\"",
+            "result": {
+              "status": "passed",
+              "duration": 1228000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---informação->-análise-de-crédito-e-fraude*->-informações-sobre-a-análise-de-crédito*",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Teste de Aplicabilidade - Informação > Análise de crédito e fraude* > Informações sobre a análise de crédito*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3586\"",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3586\"",
+            "result": {
+              "status": "passed",
+              "duration": 1079000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---informação->-entrega->-informações-sobre-a-entrega*",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Teste de Aplicabilidade - Informação > Entrega > Informações sobre a entrega*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3587\"",
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3587\"",
+            "result": {
+              "status": "passed",
+              "duration": 1623000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---informação->-financeiro->-informações-sobre-devolução-de-valores*",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Teste de Aplicabilidade - Informação > Financeiro > Informações sobre devolução de valores*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3588\"",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3588\"",
+            "result": {
+              "status": "passed",
+              "duration": 1191000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---informação->-reversa-(coleta)->-informações-sobre-a-coleta*",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Teste de Aplicabilidade - Informação > Reversa (Coleta) > Informações sobre a coleta*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3589\"",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3589\"",
+            "result": {
+              "status": "passed",
+              "duration": 1056000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-análise-de-crédito-e-fraude*->-reclamação-sobre-análise-de-crédito*",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Teste de Aplicabilidade - Reclamação > Análise de crédito e fraude* > Reclamação sobre análise de crédito*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3590\"",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3590\"",
+            "result": {
+              "status": "passed",
+              "duration": 1161000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-entrega->-reclamação-sobre-atraso*",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega > Reclamação sobre atraso*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3592\"",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3592\"",
+            "result": {
+              "status": "passed",
+              "duration": 1149000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---solicitação->-financeiro->-comprovante-de-restituição*",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Teste de Aplicabilidade - Solicitação > Financeiro > Comprovante de restituição*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3593\"",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3593\"",
+            "result": {
+              "status": "passed",
+              "duration": 1074000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---solicitação->-reversa-(coleta)->-código-de-postagem*",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Teste de Aplicabilidade - Solicitação > Reversa (Coleta) > Código de postagem*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3594\"",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3594\"",
+            "result": {
+              "status": "passed",
+              "duration": 1344000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---reclamação->-reversa-(coleta)->-reclamação-sobre-atraso*",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Teste de Aplicabilidade - Reclamação > Reversa (Coleta) > Reclamação sobre atraso*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3595\"",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3595\"",
+            "result": {
+              "status": "passed",
+              "duration": 1053000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---solicitação->-troca-ou-cancelamento*->-avaria*",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Teste de Aplicabilidade - Solicitação > Troca ou Cancelamento* > Avaria*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3630\"",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3630\"",
+            "result": {
+              "status": "passed",
+              "duration": 755000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---solicitação->-troca-ou-cancelamento*->-defeito*",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Teste de Aplicabilidade - Solicitação > Troca ou Cancelamento* > Defeito*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3631\"",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3631\"",
+            "result": {
+              "status": "passed",
+              "duration": 501000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---solicitação->-troca-ou-cancelamento*->-arrependimento*",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Teste de Aplicabilidade - Solicitação > Troca ou Cancelamento* > Arrependimento*",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3632\"",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3632\"",
+            "result": {
+              "status": "passed",
+              "duration": 478000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "meio-de-pagamento-referente-ao-cancelamento-de-cdc---rncr-1803;teste-de-aplicabilidade---preventivo-lojista->-entrega->-ocorrência-na-entrega",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Teste de Aplicabilidade - Preventivo lojista > Entrega > Ocorrência na Entrega",
+        "tags": [
+          {
+            "name": "@TestCaseKey=",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o operador crie um protocolo novo com a categoria \"3664\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o pedido tenha sido pago com CDC e boleto",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o status seja Cancelado e ponto de controle = DVC",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o protocolo deve encontrar o ID \"Cancelamento CDC\" para a \"3664\"",
+            "result": {
+              "status": "passed",
+              "duration": 493000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
