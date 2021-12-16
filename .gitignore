@@ -7,4 +7,4 @@ cucumber-json/
 reports/
 videos/
 screenshots/
-cucumber-json/
+cypress/cucumber-json/

@@ -40,7 +40,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"2851\"",
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 83000000
             }
           },
           {
@@ -50,7 +50,7 @@
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           },
           {
@@ -70,7 +70,7 @@
             "name": "deve encontrar o ID \"Atraso no reembolso\"",
             "result": {
               "status": "passed",
-              "duration": 2342000000
+              "duration": 1567000000
             }
           }
         ]
@@ -99,7 +99,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"1087\"",
             "result": {
               "status": "passed",
-              "duration": 49000000
+              "duration": 66000000
             }
           },
           {
@@ -109,7 +109,7 @@
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           },
           {
@@ -119,7 +119,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 12000000
             }
           },
           {
@@ -129,7 +129,7 @@
             "name": "deve encontrar o ID \"Atraso no reembolso\"",
             "result": {
               "status": "passed",
-              "duration": 420000000
+              "duration": 400000000
             }
           }
         ]
@@ -158,7 +158,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"1091\"",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 18000000
             }
           },
           {
@@ -168,7 +168,7 @@
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 6000000
             }
           },
           {
@@ -178,7 +178,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -217,7 +217,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"1092\"",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 19000000
             }
           },
           {
@@ -237,7 +237,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -247,7 +247,7 @@
             "name": "deve encontrar o ID \"Atraso no reembolso\"",
             "result": {
               "status": "passed",
-              "duration": 424000000
+              "duration": 392000000
             }
           }
         ]
@@ -276,7 +276,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"1086\"",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 20000000
             }
           },
           {
@@ -286,7 +286,7 @@
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 2000000
             }
           },
           {
@@ -296,7 +296,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 1000000
             }
           },
           {
@@ -306,7 +306,7 @@
             "name": "deve encontrar o ID \"Atraso no reembolso\"",
             "result": {
               "status": "passed",
-              "duration": 428000000
+              "duration": 404000000
             }
           }
         ]

@@ -25,6 +25,10 @@
           {
             "name": "@T1802",
             "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -36,7 +40,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"3632\"",
             "result": {
               "status": "passed",
-              "duration": 140000000
+              "duration": 132000000
             }
           },
           {
@@ -46,7 +50,7 @@
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 5000000
             }
           },
           {
@@ -56,7 +60,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           },
           {
@@ -66,7 +70,7 @@
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3632\"",
             "result": {
               "status": "passed",
-              "duration": 14889000000
+              "duration": 529000000
             }
           }
         ]
@@ -84,6 +88,10 @@
           {
             "name": "@T1802",
             "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -95,7 +103,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"3594\"",
             "result": {
               "status": "passed",
-              "duration": 53000000
+              "duration": 31000000
             }
           },
           {
@@ -115,7 +123,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -125,7 +133,7 @@
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3594\"",
             "result": {
               "status": "passed",
-              "duration": 499000000
+              "duration": 505000000
             }
           }
         ]
@@ -143,6 +151,10 @@
           {
             "name": "@T1802",
             "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -154,7 +166,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"3593\"",
             "result": {
               "status": "passed",
-              "duration": 31000000
+              "duration": 30000000
             }
           },
           {
@@ -184,7 +196,7 @@
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3593\"",
             "result": {
               "status": "passed",
-              "duration": 528000000
+              "duration": 473000000
             }
           }
         ]
@@ -202,6 +214,10 @@
           {
             "name": "@T1802",
             "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -213,7 +229,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"2280\"",
             "result": {
               "status": "passed",
-              "duration": 41000000
+              "duration": 27000000
             }
           },
           {
@@ -233,7 +249,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 3000000
             }
           },
           {
@@ -243,7 +259,7 @@
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"2280\"",
             "result": {
               "status": "passed",
-              "duration": 493000000
+              "duration": 497000000
             }
           }
         ]
@@ -261,6 +277,10 @@
           {
             "name": "@T1802",
             "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -272,7 +292,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"3588\"",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 25000000
             }
           },
           {
@@ -292,7 +312,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -302,7 +322,7 @@
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3588\"",
             "result": {
               "status": "passed",
-              "duration": 493000000
+              "duration": 522000000
             }
           }
         ]
@@ -320,6 +340,10 @@
           {
             "name": "@T1802",
             "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -331,7 +355,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"3587\"",
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 36000000
             }
           },
           {
@@ -340,7 +364,8 @@
             "line": 7,
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 2000000
             }
           },
           {
@@ -350,7 +375,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           },
           {
@@ -360,7 +385,7 @@
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3587\"",
             "result": {
               "status": "passed",
-              "duration": 506000000
+              "duration": 488000000
             }
           }
         ]
@@ -378,6 +403,10 @@
           {
             "name": "@T1802",
             "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -387,6 +416,69 @@
             "keyword": "Given ",
             "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3590\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "a forma de restituição é Ordem de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3590\"",
+            "result": {
+              "status": "passed",
+              "duration": 492000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---reclamação->-entrega->\treclamação-sobre-atraso*",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega >\tReclamação sobre atraso*",
+        "tags": [
+          {
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que o operador abra um incidente novo com a categoria \"3592\"",
             "result": {
               "status": "passed",
               "duration": 39000000
@@ -416,69 +508,10 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
-            "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3590\"",
-            "result": {
-              "status": "passed",
-              "duration": 510000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---reclamação->-entrega->\treclamação-sobre-atraso*",
-        "keyword": "Scenario",
-        "line": 20,
-        "name": "Teste de Aplicabilidade - Reclamação > Entrega >\tReclamação sobre atraso*",
-        "tags": [
-          {
-            "name": "@Aplicabilidades",
-            "line": 1
-          },
-          {
-            "name": "@T1802",
-            "line": 4
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "que o operador abra um incidente novo com a categoria \"3592\"",
-            "result": {
-              "status": "passed",
-              "duration": 22000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "o pedido está com o status da restituição = Erro no Processamento",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "a forma de restituição é Ordem de pagamento",
-            "result": {
-              "status": "passed",
-              "duration": 1000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3592\"",
             "result": {
               "status": "passed",
-              "duration": 493000000
+              "duration": 467000000
             }
           }
         ]
@@ -496,6 +529,10 @@
           {
             "name": "@T1802",
             "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -507,7 +544,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"1417\"",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 23000000
             }
           },
           {
@@ -517,7 +554,7 @@
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -527,7 +564,7 @@
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           },
           {
@@ -537,7 +574,7 @@
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"1417\"",
             "result": {
               "status": "passed",
-              "duration": 509000000
+              "duration": 506000000
             }
           }
         ]
@@ -555,6 +592,10 @@
           {
             "name": "@T1802",
             "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -566,66 +607,7 @@
             "name": "que o operador abra um incidente novo com a categoria \"3598\"",
             "result": {
               "status": "passed",
-              "duration": 26000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "o pedido está com o status da restituição = Erro no Processamento",
-            "result": {
-              "status": "passed",
-              "duration": 3000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "a forma de restituição é Ordem de pagamento",
-            "result": {
-              "status": "passed",
-              "duration": 1000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3598\"",
-            "result": {
-              "status": "passed",
-              "duration": 487000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---informação->-análise-de-crédito-e-fraude*->-informações-sobre-a-análise-de-crédito*",
-        "keyword": "Scenario",
-        "line": 23,
-        "name": "Teste de Aplicabilidade - Informação > Análise de crédito e fraude* > Informações sobre a análise de crédito*",
-        "tags": [
-          {
-            "name": "@Aplicabilidades",
-            "line": 1
-          },
-          {
-            "name": "@T1802",
-            "line": 4
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "que o operador abra um incidente novo com a categoria \"3586\"",
-            "result": {
-              "status": "passed",
-              "duration": 50000000
+              "duration": 29000000
             }
           },
           {
@@ -652,10 +634,73 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
+            "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3598\"",
+            "result": {
+              "status": "passed",
+              "duration": 609000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---informação->-análise-de-crédito-e-fraude*->-informações-sobre-a-análise-de-crédito*",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Teste de Aplicabilidade - Informação > Análise de crédito e fraude* > Informações sobre a análise de crédito*",
+        "tags": [
+          {
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
+          },
+          {
+            "name": "@Focus",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que o operador abra um incidente novo com a categoria \"3586\"",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "a forma de restituição é Ordem de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3586\"",
             "result": {
               "status": "passed",
-              "duration": 490000000
+              "duration": 483000000
             }
           }
         ]
