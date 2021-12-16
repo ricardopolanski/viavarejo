@@ -5,3 +5,5 @@ cypress/videos/
 node_modules/
 cucumber-json/
 reports/
+videos/
+screenshots/
