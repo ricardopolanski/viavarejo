@@ -1,6 +1,7 @@
+@Aplicabilidades @T1783
 Feature: Analises de aplicabilidade do fluxo financeiro - RNCR-1783
     
-    @TestCaseKey= 
+    
     Scenario Outline: Teste de Aplicabilidade - <NOMECATEGORIA>
         Given que o operador abra um incidente novo com a categoria "<IDCATEGORIA>"
         And o pedido está com o status da restituição = Erro no Processamento

@@ -1,7 +1,5 @@
+@CancelarPedido
 Feature: Realizar cancelamento do pedido
-
-
-
     
     Scenario: Cancelar pedido pago com boleto
         Given que seja acessado o LF Cancelamento

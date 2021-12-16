@@ -1,6 +1,7 @@
+@Aplicabilidades
 Feature: Meio de pagamento referente ao cancelamento de CDC - RNCR-1803
     
-    @TestCaseKey= 
+    @T1803 
     Scenario Outline: Teste de Aplicabilidade - <NOMECATEGORIA>
         Given que o operador crie um protocolo novo com a categoria "<IDCATEGORIA>"
         And o pedido tenha sido pago com CDC e boleto

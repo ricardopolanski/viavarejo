@@ -2,20 +2,29 @@
   {
     "keyword": "Feature",
     "name": "Alteração no ponto de controle _RPA - RNCR-1802",
-    "line": 1,
+    "line": 2,
     "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@Aplicabilidades",
+        "line": 1
+      }
+    ],
     "uri": "RNCR-1802 Alteração no ponto de controle _RPA.feature",
     "elements": [
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---solicitação->-troca-ou-cancelamento->-arrependimento",
         "keyword": "Scenario",
-        "line": 12,
+        "line": 13,
         "name": "Teste de Aplicabilidade - Solicitação > Troca ou cancelamento > Arrependimento",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -23,17 +32,17 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3632\"",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 140000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 7,
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
@@ -43,21 +52,21 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3632\"",
             "result": {
               "status": "passed",
-              "duration": 1212000000
+              "duration": 14889000000
             }
           }
         ]
@@ -65,12 +74,16 @@
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---solicitação->-reversa->-(coleta)\tcódigo-de-postagem*",
         "keyword": "Scenario",
-        "line": 13,
+        "line": 14,
         "name": "Teste de Aplicabilidade - Solicitação > Reversa > (Coleta)\tCódigo de postagem*",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -78,27 +91,27 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3594\"",
             "result": {
               "status": "passed",
-              "duration": 52000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "o pedido está com o status da restituição = Erro no Processamento",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
+              "duration": 53000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
@@ -108,11 +121,11 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3594\"",
             "result": {
               "status": "passed",
-              "duration": 439000000
+              "duration": 499000000
             }
           }
         ]
@@ -120,12 +133,16 @@
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---solicitação->-financeiro->\tcomprovante-de-restituição*",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 15,
         "name": "Teste de Aplicabilidade - Solicitação > Financeiro >\tComprovante de restituição*",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -133,72 +150,17 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3593\"",
             "result": {
               "status": "passed",
-              "duration": 24000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "o pedido está com o status da restituição = Erro no Processamento",
-            "result": {
-              "status": "passed",
-              "duration": 1000000
+              "duration": 31000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "a forma de restituição é Ordem de pagamento",
-            "result": {
-              "status": "passed",
-              "duration": 1000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3593\"",
-            "result": {
-              "status": "passed",
-              "duration": 427000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---reclamação->-entrega->\tdesconhece-entrega",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "Teste de Aplicabilidade - Reclamação > Entrega >\tDesconhece entrega",
-        "tags": [
-          {
-            "name": "@TestCaseKey=1802",
-            "line": 3
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "que o operador abra um incidente novo com a categoria \"2280\"",
-            "result": {
-              "status": "passed",
-              "duration": 22000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
@@ -208,7 +170,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
@@ -218,11 +180,70 @@
           {
             "arguments": [],
             "keyword": "Then ",
+            "line": 9,
+            "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3593\"",
+            "result": {
+              "status": "passed",
+              "duration": 528000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---reclamação->-entrega->\tdesconhece-entrega",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Teste de Aplicabilidade - Reclamação > Entrega >\tDesconhece entrega",
+        "tags": [
+          {
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que o operador abra um incidente novo com a categoria \"2280\"",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
             "line": 8,
+            "name": "a forma de restituição é Ordem de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"2280\"",
             "result": {
               "status": "passed",
-              "duration": 446000000
+              "duration": 493000000
             }
           }
         ]
@@ -230,12 +251,16 @@
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---informação->-financeiro->\tinformações-sobre-devolução-de-valores*",
         "keyword": "Scenario",
-        "line": 16,
+        "line": 17,
         "name": "Teste de Aplicabilidade - Informação > Financeiro >\tInformações sobre devolução de valores*",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -243,17 +268,17 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3588\"",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 32000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 7,
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
@@ -263,7 +288,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
@@ -273,11 +298,11 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3588\"",
             "result": {
               "status": "passed",
-              "duration": 444000000
+              "duration": 493000000
             }
           }
         ]
@@ -285,12 +310,16 @@
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---informação->-entrega->\tinformações-sobre-a-entrega*",
         "keyword": "Scenario",
-        "line": 17,
+        "line": 18,
         "name": "Teste de Aplicabilidade - Informação > Entrega >\tInformações sobre a entrega*",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -298,27 +327,26 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3587\"",
             "result": {
               "status": "passed",
-              "duration": 27000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "o pedido está com o status da restituição = Erro no Processamento",
-            "result": {
-              "status": "passed",
-              "duration": 1000000
+              "duration": 29000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
@@ -328,11 +356,11 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3587\"",
             "result": {
               "status": "passed",
-              "duration": 435000000
+              "duration": 506000000
             }
           }
         ]
@@ -340,12 +368,16 @@
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---reclamação->-análise-de-crédito-e-fraude*->-reclamação-sobre-análise-de-crédito*",
         "keyword": "Scenario",
-        "line": 18,
+        "line": 19,
         "name": "Teste de Aplicabilidade - Reclamação > Análise de crédito e fraude* > Reclamação sobre análise de crédito*",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -353,17 +385,17 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3590\"",
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 39000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 7,
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
@@ -373,21 +405,21 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3590\"",
             "result": {
               "status": "passed",
-              "duration": 412000000
+              "duration": 510000000
             }
           }
         ]
@@ -395,12 +427,16 @@
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---reclamação->-entrega->\treclamação-sobre-atraso*",
         "keyword": "Scenario",
-        "line": 19,
+        "line": 20,
         "name": "Teste de Aplicabilidade - Reclamação > Entrega >\tReclamação sobre atraso*",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -408,27 +444,27 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3592\"",
             "result": {
               "status": "passed",
-              "duration": 35000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "o pedido está com o status da restituição = Erro no Processamento",
-            "result": {
-              "status": "passed",
-              "duration": 1000000
+              "duration": 22000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
@@ -438,11 +474,11 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3592\"",
             "result": {
               "status": "passed",
-              "duration": 411000000
+              "duration": 493000000
             }
           }
         ]
@@ -450,12 +486,16 @@
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---reclamação->-financeiro->-reclamação-sobre-atraso-na-devolução-de-valores*",
         "keyword": "Scenario",
-        "line": 20,
+        "line": 21,
         "name": "Teste de Aplicabilidade - Reclamação > Financeiro > Reclamação sobre atraso na devolução de valores*",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -463,17 +503,17 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"1417\"",
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 40000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 7,
             "name": "o pedido está com o status da restituição = Erro no Processamento",
             "result": {
               "status": "passed",
@@ -483,21 +523,21 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"1417\"",
             "result": {
               "status": "passed",
-              "duration": 442000000
+              "duration": 509000000
             }
           }
         ]
@@ -505,12 +545,16 @@
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---informação->-reversa-(coleta)->-informações-sobre-a-coleta*",
         "keyword": "Scenario",
-        "line": 21,
+        "line": 22,
         "name": "Teste de Aplicabilidade - Informação > Reversa (Coleta) > Informações sobre a coleta*",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -518,27 +562,27 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3598\"",
             "result": {
               "status": "passed",
-              "duration": 21000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "o pedido está com o status da restituição = Erro no Processamento",
-            "result": {
-              "status": "passed",
-              "duration": 1000000
+              "duration": 26000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
@@ -548,11 +592,11 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3598\"",
             "result": {
               "status": "passed",
-              "duration": 420000000
+              "duration": 487000000
             }
           }
         ]
@@ -560,12 +604,16 @@
       {
         "id": "alteração-no-ponto-de-controle-_rpa---rncr-1802;teste-de-aplicabilidade---informação->-análise-de-crédito-e-fraude*->-informações-sobre-a-análise-de-crédito*",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 23,
         "name": "Teste de Aplicabilidade - Informação > Análise de crédito e fraude* > Informações sobre a análise de crédito*",
         "tags": [
           {
-            "name": "@TestCaseKey=1802",
-            "line": 3
+            "name": "@Aplicabilidades",
+            "line": 1
+          },
+          {
+            "name": "@T1802",
+            "line": 4
           }
         ],
         "type": "scenario",
@@ -573,27 +621,27 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "que o operador abra um incidente novo com a categoria \"3586\"",
             "result": {
               "status": "passed",
-              "duration": 20000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "o pedido está com o status da restituição = Erro no Processamento",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
+              "duration": 50000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
+            "name": "o pedido está com o status da restituição = Erro no Processamento",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
             "name": "a forma de restituição é Ordem de pagamento",
             "result": {
               "status": "passed",
@@ -603,11 +651,11 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "deverá encontrar o ID \"Pedido cancelado (Sistêmico)*\" para a \"3586\"",
             "result": {
               "status": "passed",
-              "duration": 433000000
+              "duration": 490000000
             }
           }
         ]

@@ -1,6 +1,7 @@
+@Aplicabilidades
 Feature: Alteração no ponto de controle _RPA - RNCR-1802
     
-    @TestCaseKey=1802
+    @T1802
     Scenario Outline: Teste de Aplicabilidade - <NOMECATEGORIA>
         Given que o operador abra um incidente novo com a categoria "<IDCATEGORIA>"
         And o pedido está com o status da restituição = Erro no Processamento
